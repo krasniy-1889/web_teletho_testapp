@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-telethon-testapp"
+version = "0.1.0"
+description = ""
+authors = ["krasniy-1889 <neytirri@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+telethon = "^1.33.1"
+pydantic-settings = "^2.1.0"
+fastapi = "^0.109.0"
+uvicorn = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
